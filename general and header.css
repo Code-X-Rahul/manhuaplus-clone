@@ -1,0 +1,164 @@
+/* general, header and nav  styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #b4b3b3;
+    -webkit-font-smoothing: antialiased !important;
+    height: 2000px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 118px;
+    background: linear-gradient(to right, #e51097 40%, #e851c9);
+    list-style: none;
+}
+
+.left-section {
+    margin-left: 120px;
+    cursor: pointer;
+
+}
+
+.logo {
+    width: 66%;
+    height: auto;
+    vertical-align: middle;
+    /* padding-bottom: 7px; */
+}
+
+.middle-section {
+    display: flex;
+    color: white;
+    margin-left: -42px;
+    position: absolute;
+    left: 397px;
+    height: 50px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.middle-section ul {
+    display: flex;
+    cursor: pointer;
+
+}
+
+.middle-section ul li {
+    list-style: none;
+    padding: 0px 20px;
+    /* padding-bottom: 7px; */
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.middle-section ul li:hover {
+    /* border-bottom: 1px solid whitesmoke; */
+    text-decoration: underline whitesmoke;
+    transition: all 0.3s ease-in-out 0s;
+
+}
+
+.right-section {
+    position: absolute;
+    right: 120px;
+    display: flex;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+
+.search {
+    width: 35px;
+    height: 35px;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    margin-right: 35px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.search-icon {
+    height: auto;
+    width: 55%;
+    object-fit: contain;
+    vertical-align: middle;
+}
+
+.search:hover {
+    background-color: black;
+}
+
+.search-icon:hover {
+    filter: invert(100%);
+}
+
+.right-section p {
+    font-weight: 600;
+}
+
+.nav {
+    display: flex;
+    height: 60px;
+    /* background-color: pink; */
+    align-items: center;
+    border-bottom: 1px solid rgb(231, 230, 230);
+}
+
+.menu {
+    display: flex;
+    margin: 0px 100px;
+
+}
+
+.nav-menu {
+    padding: 0px 20px;
+    font-weight: 600;
+    color: rgb(99, 99, 99);
+    cursor: pointer;
+}
+
+.nav-menu:hover {
+    color: #e51097;
+}
+
+.right {
+    position: absolute;
+    right: 120px;
+}
+
+.account-login {
+    height: 35px;
+    width: 83px;
+    color: rgb(99, 99, 99);
+    background-color: white;
+    border: 2px solid grey;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.account-login:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+
+.account-login p {
+    font-size: 14px;
+    vertical-align: middle;
+    font-weight: 600;
+}

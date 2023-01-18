@@ -1,0 +1,31 @@
+footer{
+    height: 120px;
+    border-top: 1px solid rgb(204, 202, 202);
+   
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+.home, .line, .contact-us{
+    color: rgb(66, 66, 66);
+    padding: 0px 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.line{
+    color: black;
+    font-weight: 700;
+}
+.cr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    /* margin: 15px 15px; */
+}
+.copyrights{
+    font-size: 12px;
+}
